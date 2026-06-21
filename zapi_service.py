@@ -20,4 +20,5 @@ def send_message(phone, message):
         url,
         json=body
     )
+
     return response

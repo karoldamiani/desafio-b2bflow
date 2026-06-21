@@ -17,7 +17,8 @@ try:
             message
         )
 
-        print(f"{name} - Status: {response.status_code}")
+        print(
+            f"{name} - Status: {response.status_code}")
 
 except Exception as error:
     print(f"Error: {error}")
